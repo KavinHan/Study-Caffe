@@ -1,3 +1,5 @@
 # Summary
 
-* [First Chapter](chapter1.md)
+* [Introduction](README.md)
+* [Install Caffe on Ubuntu 14.04](chapter1.md)
+

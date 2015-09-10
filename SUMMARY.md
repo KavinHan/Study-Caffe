@@ -6,5 +6,5 @@
    * [Install CUDA 7.0](install_cuda_7.md)
    * [Install cuDNN 7.0](install_cudnn_7.md)
    * [Install OpenBLAS and Boost](install_openblas_and_boost.md)
-   * Install OpenCV 3.0
+   * [Install OpenCV 3.0](install_opencv_3.md)
 

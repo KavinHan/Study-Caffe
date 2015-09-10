@@ -19,22 +19,22 @@ $> ./cuda_7.0.28_linux.run -extract=~/Downloads/cuda_install
 ```
 
 ## Clear pre-install driver
-
 ```
-//remove prev installed nvidia driver
+// remove prev installed nvidia driver
 $> sudo apt-get --purge remove nvidia-*
 
-//disabled the Nouveau driver
+// disabled the Nouveau driver
 $> sudo vim /etc/modprobe.d/blacklist.conf
 $> (add new line at the end, and add this code) blacklist nouveau
 $> sudo reboot
 ```
 
 ## Install NVidia driver
-//*After rebooting, Please directly switched to the terminal (using Ctrl + Alt + F1) and killed the X server to install the Nvidia driver*
 ```
-// Do Login
+
+// After rebooting, Please directly switched to the terminal (using Ctrl + Alt + F1) and killed the X server to install the Nvidia driver
 $> sudo service lightdm stop
+
 // Install NVidia driver step: Accept >>> Continue installation >>> Install without signing >>> if warning just OK >>> OK >>> YES >>> OK >>>
 $> sudo ~/Downloads/NVIDIA-Linux-x86_64-352.41.run
 $> sudo modprobe nvidia

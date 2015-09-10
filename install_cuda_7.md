@@ -31,7 +31,6 @@ $> sudo reboot
 
 ## Install NVidia driver
 ```
-
 // After rebooting, Please directly switched to the terminal (using Ctrl + Alt + F1) and killed the X server to install the Nvidia driver
 $> sudo service lightdm stop
 

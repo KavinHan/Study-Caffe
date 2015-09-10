@@ -8,4 +8,5 @@
    * [Install OpenBLAS and Boost](install_openblas_and_boost.md)
    * [Install OpenCV 3.0](install_opencv_3.md)
    * [Install Caffe](install_caffe.md)
+   * Install caffe require package
 

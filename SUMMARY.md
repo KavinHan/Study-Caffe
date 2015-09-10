@@ -7,6 +7,6 @@
    * [Install cuDNN 7.0](install_cudnn_7.md)
    * [Install OpenBLAS and Boost](install_openblas_and_boost.md)
    * [Install OpenCV 3.0](install_opencv_3.md)
-   * [Install Caffe](install_caffe.md)
    * Install caffe require package
+   * [Install Caffe](install_caffe.md)
 

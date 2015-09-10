@@ -11,7 +11,7 @@ $> sudo apt-get install build-essential vim git
 * Download [NVidia driver](http://www.nvidia.co.kr/Download/index.aspx) to ~/Download
 * Download [CUDA run file installer bin file](https://developer.nvidia.com/cuda-downloads) to ~/Download
 
-## Ready
+## Ready to install
 ```
 $> cd ~/Downloads
 $> sudo chmod +x NVIDIA-Linux-x86_64-352.41.run
@@ -19,13 +19,12 @@ $> ./cuda_7.0.28_linux.run -extract=~/Downloads/cuda_install
 ```
 
 ## Clear pre-install driver
-//*remove prev installed nvidia driver*
-```
-$> sudo apt-get --purge remove nvidia-*
-```
 
-//*disabled the Nouveau driver*
 ```
+//remove prev installed nvidia driver
+$> sudo apt-get --purge remove nvidia-*
+
+//disabled the Nouveau driver
 $> sudo vim /etc/modprobe.d/blacklist.conf
 $> (add new line at the end, and add this code) blacklist nouveau
 $> sudo reboot

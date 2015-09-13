@@ -9,4 +9,5 @@
    * [Install OpenCV 3.0](install_opencv_3.md)
    * [Install caffe require package](install_caffe_require_package.md)
    * [Install Caffe](install_caffe.md)
+   * Reference
 
